@@ -1,0 +1,130 @@
+.App {
+  color: black;
+  text-align: center;
+  
+}
+
+
+.brand{
+ height: 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.993);
+  border-radius:30px;
+}
+.brand .logo{
+  
+  
+
+  width:50px;
+  height:40px;
+
+
+}
+ 
+.brand p{
+font-weight: 200;
+  color: #000103;
+}
+
+#page-container {
+  
+  position: relative;
+  min-height: 100vh;
+}
+.nav-links {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+ 
+.pad{
+  padding-left: 30px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.footer-dark {
+
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#1c7af5;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+.footer-dark p a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark p a:hover {
+  opacity: 1;
+} 
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}

@@ -1,0 +1,39 @@
+.xx{
+    cursor: no-drop;
+    color: rgb(180, 180, 180);
+}
+
+.colDisable{
+    color: rgb(180, 180, 180);
+    cursor: no-drop;
+     border-radius: 3px;
+   padding-top: 20px;
+    background-color: rgb(199, 199, 199);
+}
+.colDisable p{
+    
+    line-height: 1px;
+}
+
+.colGreen{
+    color: white;
+    background: rgb(93, 196, 93);
+    border-radius: 3px;
+   padding-top: 20px;
+   /* padding-bottom: 20px; */
+   
+}
+.colGreen a{
+    text-decoration: none;
+    color: white;
+}
+.colGreen p{
+    
+    line-height: 1px;
+}
+
+.colGreen h6{
+    background-color: rgb(33, 131, 58);
+    padding: 10px;
+}
+

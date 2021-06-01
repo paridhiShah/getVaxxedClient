@@ -1,0 +1,18 @@
+.xx{
+    cursor: no-drop;
+    padding-top: 12px;
+    font-weight:500
+}
+
+.xx .colD{
+    color: rgb(199, 199, 199);
+}
+.yy{
+    cursor: pointer;
+    padding-top: 12px;
+    font-weight:500
+}
+
+.yy .colG{
+    color: rgb(72, 184, 72);
+}

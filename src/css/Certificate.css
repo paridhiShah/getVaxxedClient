@@ -1,0 +1,12 @@
+.wrap{
+    flex: 1;
+    display: 'flex'; 
+    align-items: 'center'; 
+    justify-content: 'center'; 
+    background-color: 'rgba(000, 000, 000, 000)';
+    height: '80vh';
+    display: 'flex';
+    margin-left: 25%;
+    margin-top: 10%;
+
+    }
