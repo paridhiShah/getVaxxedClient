@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/paridhiShah/getVaxxedClient.git/static/css/main.cd7e8a83.chunk.css",
-    "main.js": "/paridhiShah/getVaxxedClient.git/static/js/main.79c31134.chunk.js",
-    "main.js.map": "/paridhiShah/getVaxxedClient.git/static/js/main.79c31134.chunk.js.map",
-    "runtime-main.js": "/paridhiShah/getVaxxedClient.git/static/js/runtime-main.491f7c5e.js",
-    "runtime-main.js.map": "/paridhiShah/getVaxxedClient.git/static/js/runtime-main.491f7c5e.js.map",
-    "static/css/2.15a7a700.chunk.css": "/paridhiShah/getVaxxedClient.git/static/css/2.15a7a700.chunk.css",
-    "static/js/2.23e4e6ad.chunk.js": "/paridhiShah/getVaxxedClient.git/static/js/2.23e4e6ad.chunk.js",
-    "static/js/2.23e4e6ad.chunk.js.map": "/paridhiShah/getVaxxedClient.git/static/js/2.23e4e6ad.chunk.js.map",
-    "static/js/3.3af85fef.chunk.js": "/paridhiShah/getVaxxedClient.git/static/js/3.3af85fef.chunk.js",
-    "static/js/3.3af85fef.chunk.js.map": "/paridhiShah/getVaxxedClient.git/static/js/3.3af85fef.chunk.js.map",
-    "index.html": "/paridhiShah/getVaxxedClient.git/index.html",
-    "static/css/2.15a7a700.chunk.css.map": "/paridhiShah/getVaxxedClient.git/static/css/2.15a7a700.chunk.css.map",
-    "static/css/main.cd7e8a83.chunk.css.map": "/paridhiShah/getVaxxedClient.git/static/css/main.cd7e8a83.chunk.css.map",
-    "static/js/2.23e4e6ad.chunk.js.LICENSE.txt": "/paridhiShah/getVaxxedClient.git/static/js/2.23e4e6ad.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/paridhiShah/getVaxxedClient.git/static/media/Assistant-VariableFont_wght.8260db3b.ttf"
+    "main.css": "/getVaxxedClient/static/css/main.58357631.chunk.css",
+    "main.js": "/getVaxxedClient/static/js/main.47e622ee.chunk.js",
+    "main.js.map": "/getVaxxedClient/static/js/main.47e622ee.chunk.js.map",
+    "runtime-main.js": "/getVaxxedClient/static/js/runtime-main.a053b76b.js",
+    "runtime-main.js.map": "/getVaxxedClient/static/js/runtime-main.a053b76b.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/getVaxxedClient/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.7313c4f4.chunk.js": "/getVaxxedClient/static/js/2.7313c4f4.chunk.js",
+    "static/js/2.7313c4f4.chunk.js.map": "/getVaxxedClient/static/js/2.7313c4f4.chunk.js.map",
+    "static/js/3.a2e96ec0.chunk.js": "/getVaxxedClient/static/js/3.a2e96ec0.chunk.js",
+    "static/js/3.a2e96ec0.chunk.js.map": "/getVaxxedClient/static/js/3.a2e96ec0.chunk.js.map",
+    "index.html": "/getVaxxedClient/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/getVaxxedClient/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.58357631.chunk.css.map": "/getVaxxedClient/static/css/main.58357631.chunk.css.map",
+    "static/js/2.7313c4f4.chunk.js.LICENSE.txt": "/getVaxxedClient/static/js/2.7313c4f4.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/getVaxxedClient/static/media/Assistant-VariableFont_wght.8260db3b.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.491f7c5e.js",
-    "static/css/2.15a7a700.chunk.css",
-    "static/js/2.23e4e6ad.chunk.js",
-    "static/css/main.cd7e8a83.chunk.css",
-    "static/js/main.79c31134.chunk.js"
+    "static/js/runtime-main.a053b76b.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.7313c4f4.chunk.js",
+    "static/css/main.58357631.chunk.css",
+    "static/js/main.47e622ee.chunk.js"
   ]
 }
