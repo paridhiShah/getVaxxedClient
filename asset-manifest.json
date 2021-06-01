@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/getVaxxedClient/static/css/main.58357631.chunk.css",
-    "main.js": "/getVaxxedClient/static/js/main.04c765f1.chunk.js",
-    "main.js.map": "/getVaxxedClient/static/js/main.04c765f1.chunk.js.map",
-    "runtime-main.js": "/getVaxxedClient/static/js/runtime-main.a053b76b.js",
-    "runtime-main.js.map": "/getVaxxedClient/static/js/runtime-main.a053b76b.js.map",
+    "main.css": "/getVaxxedClient/static/css/main.a16217da.chunk.css",
+    "main.js": "/getVaxxedClient/static/js/main.a46f6428.chunk.js",
+    "main.js.map": "/getVaxxedClient/static/js/main.a46f6428.chunk.js.map",
+    "runtime-main.js": "/getVaxxedClient/static/js/runtime-main.2b374f93.js",
+    "runtime-main.js.map": "/getVaxxedClient/static/js/runtime-main.2b374f93.js.map",
     "static/css/2.61b4cb56.chunk.css": "/getVaxxedClient/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.7313c4f4.chunk.js": "/getVaxxedClient/static/js/2.7313c4f4.chunk.js",
-    "static/js/2.7313c4f4.chunk.js.map": "/getVaxxedClient/static/js/2.7313c4f4.chunk.js.map",
-    "static/js/3.a2e96ec0.chunk.js": "/getVaxxedClient/static/js/3.a2e96ec0.chunk.js",
-    "static/js/3.a2e96ec0.chunk.js.map": "/getVaxxedClient/static/js/3.a2e96ec0.chunk.js.map",
+    "static/js/2.954643cd.chunk.js": "/getVaxxedClient/static/js/2.954643cd.chunk.js",
+    "static/js/2.954643cd.chunk.js.map": "/getVaxxedClient/static/js/2.954643cd.chunk.js.map",
+    "static/js/3.5c84b42a.chunk.js": "/getVaxxedClient/static/js/3.5c84b42a.chunk.js",
+    "static/js/3.5c84b42a.chunk.js.map": "/getVaxxedClient/static/js/3.5c84b42a.chunk.js.map",
     "index.html": "/getVaxxedClient/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/getVaxxedClient/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.58357631.chunk.css.map": "/getVaxxedClient/static/css/main.58357631.chunk.css.map",
-    "static/js/2.7313c4f4.chunk.js.LICENSE.txt": "/getVaxxedClient/static/js/2.7313c4f4.chunk.js.LICENSE.txt",
+    "static/css/main.a16217da.chunk.css.map": "/getVaxxedClient/static/css/main.a16217da.chunk.css.map",
+    "static/js/2.954643cd.chunk.js.LICENSE.txt": "/getVaxxedClient/static/js/2.954643cd.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/getVaxxedClient/static/media/Assistant-VariableFont_wght.8260db3b.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a053b76b.js",
+    "static/js/runtime-main.2b374f93.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.7313c4f4.chunk.js",
-    "static/css/main.58357631.chunk.css",
-    "static/js/main.04c765f1.chunk.js"
+    "static/js/2.954643cd.chunk.js",
+    "static/css/main.a16217da.chunk.css",
+    "static/js/main.a46f6428.chunk.js"
   ]
 }
