@@ -20,7 +20,7 @@ class App extends Component{
           <div className="container" >
             <NavbarBrand className="brand" href="/getVaxxedClient" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
           <ul className="nav-links">
-            <Link to="home">
+            <Link to="/getVaxxedClient">
              <li className="pad">Home</li>
             </Link>
             <Link to="/getVaxxedClient/certificate">
