@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/getVaxxedClient/static/css/main.5a865f37.chunk.css",
-    "main.js": "/getVaxxedClient/static/js/main.909be46d.chunk.js",
-    "main.js.map": "/getVaxxedClient/static/js/main.909be46d.chunk.js.map",
+    "main.css": "/getVaxxedClient/static/css/main.c83dff0a.chunk.css",
+    "main.js": "/getVaxxedClient/static/js/main.241e6894.chunk.js",
+    "main.js.map": "/getVaxxedClient/static/js/main.241e6894.chunk.js.map",
     "runtime-main.js": "/getVaxxedClient/static/js/runtime-main.2b374f93.js",
     "runtime-main.js.map": "/getVaxxedClient/static/js/runtime-main.2b374f93.js.map",
     "static/css/2.61b4cb56.chunk.css": "/getVaxxedClient/static/css/2.61b4cb56.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5c84b42a.chunk.js.map": "/getVaxxedClient/static/js/3.5c84b42a.chunk.js.map",
     "index.html": "/getVaxxedClient/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/getVaxxedClient/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.5a865f37.chunk.css.map": "/getVaxxedClient/static/css/main.5a865f37.chunk.css.map",
+    "static/css/main.c83dff0a.chunk.css.map": "/getVaxxedClient/static/css/main.c83dff0a.chunk.css.map",
     "static/js/2.954643cd.chunk.js.LICENSE.txt": "/getVaxxedClient/static/js/2.954643cd.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/getVaxxedClient/static/media/Assistant-VariableFont_wght.8260db3b.ttf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.2b374f93.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.954643cd.chunk.js",
-    "static/css/main.5a865f37.chunk.css",
-    "static/js/main.909be46d.chunk.js"
+    "static/css/main.c83dff0a.chunk.css",
+    "static/js/main.241e6894.chunk.js"
   ]
 }
