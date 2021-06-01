@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import About from './components/AboutComponent';
-import {Navbar, NavbarBrand, NavLink} from 'reactstrap';
+import {Navbar, NavbarBrand} from 'reactstrap';
 import './App.css';
 import Main from './components/MainComponent';
 import Certificate from './components/CertificateComponent';
@@ -9,7 +9,7 @@ import CheckA from './components/CheckAComponent';
 import CheckD from './components/CheckDComponent';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { Card, CardImg, CardTitle, CardText, CardImgOverlay } from 'reactstrap'
+import { CardImg} from 'reactstrap'
 class App extends Component{
   render(){
     
@@ -18,9 +18,9 @@ class App extends Component{
       <div className="App" id="page-container">
         <Navbar dark color='primary'>
           <div className="container" >
-            <NavbarBrand className="brand" href="/getVaxxedClient//home" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
+            <NavbarBrand className="brand" href="/getVaxxedClient/home" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
           <ul className="nav-links">
-            <Link to="/getVaxxedClient//home">
+            <Link to="/getVaxxedClient/home">
              <li className="pad">Home</li>
             </Link>
             <Link to="/getVaxxedClient/certificate">
@@ -36,7 +36,7 @@ class App extends Component{
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
       <Switch>
-      <Route path="/getVaxxedClient" exact component={Main} />
+      <Route path="/getVaxxedClient/" exact component={Main} />
               <Route path="/getVaxxedClient/certificate"  exact component={Certificate}/>
               <Route path="/getVaxxedClient/home/:id/:name" exact component={CheckD}></Route>
               <Route path="/getVaxxedClient/home/:id" exact component={CheckA}></Route>

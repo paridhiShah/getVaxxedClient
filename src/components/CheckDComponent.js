@@ -10,7 +10,7 @@ function CheckD({match}){
     const districtName = match.params.id
     console.log("dis :",match.params)
     const stateName = match.params.name
-    const url="/status/distrcitFind"
+    const url="https://intense-inlet-79769.herokuapp.com/status/distrcitFind"
     const [error,setError] = useState(null);
     const [selectedDate,setSelectedDate] = useState("")
     const [isLoaded,setIsLoaded]= useState(false);

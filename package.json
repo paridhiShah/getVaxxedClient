@@ -56,6 +56,6 @@
   "devDependencies": {
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2"
-  },
-  "proxy": "https://intense-inlet-79769.herokuapp.com/"
+  }
+
 }

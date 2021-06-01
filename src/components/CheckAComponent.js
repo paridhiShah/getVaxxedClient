@@ -1,6 +1,6 @@
 import React,{ useEffect, useState} from 'react';
 import axios from 'axios';
-import {Card,CardBody,CardTitle} from 'reactstrap'
+import {Card} from 'reactstrap'
 import SlotComponent from './SlotComponent'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
@@ -10,7 +10,7 @@ import '../css/CheckA.css';
 
 function CheckA({match}){
     console.log(match.params.id);
-    const url="/status"
+    const url="https://intense-inlet-79769.herokuapp.com/status"
     const [error,setError] = useState(null);
     const [isLoaded,setIsLoaded]= useState(false);
     const [items,setItems] = useState([]);

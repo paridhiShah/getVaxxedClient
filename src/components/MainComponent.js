@@ -1,8 +1,7 @@
 import axios from 'axios';
 import {Component} from 'react';
-import CheckA from './CheckAComponent';
-import CheckD from './CheckDComponent';
-import {Route,Link} from 'react-router-dom';
+
+import {Link} from 'react-router-dom';
 import '../css/Main.css';
 import '../fonts/Assistant-VariableFont_wght.ttf'; 
 
@@ -45,7 +44,7 @@ class Main extends Component{
 
 
     componentDidMount(){
-        axios.get("/status/states").
+        axios.get("https://intense-inlet-79769.herokuapp.com/status/states").
         then(res=>{
                 console.log(res.data.states)
                 this.setState({states: res.data.states}, () => {
