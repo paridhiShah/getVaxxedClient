@@ -82,7 +82,7 @@ class Main extends Component{
                      </datalist >
                      
                             <hr></hr>
-                    <Link to={`/home/${this.state.dis}/${this.state.value}`}>
+                    <Link to={`/getVaxxedClient/home/${this.state.dis}/${this.state.value}`}>
                             <button 
                             
                             type="submit" className="btn btn-warning" >Search Slots</button>
@@ -135,7 +135,7 @@ class Main extends Component{
                         <hr></hr>
                         </div>
                         <div>
-                        <Link to={`/home/${this.state.value}`}>
+                        <Link to={`/getVaxxedClient/home/${this.state.value}`}>
                             <button 
                             variant="contained"
                             disabled={(this.state.value.length!==6)} type="submit" className="btn btn-danger" >Search Slots</button>

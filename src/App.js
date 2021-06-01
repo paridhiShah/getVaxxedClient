@@ -18,12 +18,12 @@ class App extends Component{
       <div className="App" id="page-container">
         <Navbar dark color='primary'>
           <div className="container" >
-            <NavbarBrand className="brand" href="/home" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
+            <NavbarBrand className="brand" href="/getVaxxedClient//home" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
           <ul className="nav-links">
-            <Link to="/home">
+            <Link to="/getVaxxedClient//home">
              <li className="pad">Home</li>
             </Link>
-            <Link to="/certificate">
+            <Link to="/getVaxxedClient/certificate">
               <li className="pad">Certificate</li>
             </Link>
           </ul>
@@ -36,11 +36,11 @@ class App extends Component{
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
       <Switch>
-      <Route path="/" exact component={Main} />
-              <Route path="/certificate"  exact component={Certificate}/>
-              <Route path="/home/:id/:name" exact component={CheckD}></Route>
-              <Route path="/home/:id" exact component={CheckA}></Route>
-              <Route path="/home"  component={Main}/>
+      <Route path="/getVaxxedClient" exact component={Main} />
+              <Route path="/getVaxxedClient/certificate"  exact component={Certificate}/>
+              <Route path="/getVaxxedClient/home/:id/:name" exact component={CheckD}></Route>
+              <Route path="/getVaxxedClient/home/:id" exact component={CheckA}></Route>
+              <Route path="/getVaxxedClient/home"  component={Main}/>
       </Switch>
             </div>
           </div>
