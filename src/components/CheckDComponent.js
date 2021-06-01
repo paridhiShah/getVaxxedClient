@@ -103,7 +103,7 @@ function CheckD({match}){
                    }
                    
                    const changeUrl=()=>{
-                       history.push("/home");
+                       history.push("/getVaxxedClient/home");
                    }
                    return(
                        <div className="col-12 col-md-12 md-1">

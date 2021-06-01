@@ -94,7 +94,7 @@ class Main extends Component{
         else{
             
             return(
-                <div>BYe BYe</div>
+                <div>Data wasn't loaded please check via pincode</div>
             )
         }
     }

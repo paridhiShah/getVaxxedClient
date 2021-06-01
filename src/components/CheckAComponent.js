@@ -105,7 +105,7 @@ function CheckA({match}){
                 }
                 
                 const changeUrl=()=>{
-                    history.push("/home");
+                    history.push("/getVaxxedClient/home");
                 }
                 return(
                     <div className="col-11 col-md-11 md-1">
