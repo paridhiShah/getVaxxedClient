@@ -18,7 +18,7 @@ class App extends Component{
       <div className="App" id="page-container">
         <Navbar dark color='primary'>
           <div className="container" >
-            <NavbarBrand className="brand" href="/getVaxxedClient/" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
+            <NavbarBrand className="brand" href="/" ><CardImg className="logo" src='assets/images/logo.png' alt="logo"/></NavbarBrand>
           <ul className="nav-links">
             <Link to="home">
              <li className="pad">Home</li>
