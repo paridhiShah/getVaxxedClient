@@ -2,6 +2,7 @@
   "name": "getvaxxed",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://paridhishah.github.io/getVaxxedClient",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -22,10 +23,13 @@
     "react-scripts": "4.0.3",
     "react-select": "^4.3.1",
     "reactstrap": "^8.9.0",
+    "surge": "^0.23.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -52,5 +56,5 @@
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2"
   },
-  "proxy": "http://localhost:4000"
+  "proxy": "https://intense-inlet-79769.herokuapp.com/"
 }
