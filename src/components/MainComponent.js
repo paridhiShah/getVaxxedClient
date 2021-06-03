@@ -44,7 +44,7 @@ class Main extends Component{
 
 
     componentDidMount(){
-        axios.get("https://intense-inlet-79769.herokuapp.com/status/states").
+        axios.get("http://getv-env.eba-32nnpmku.ap-south-1.elasticbeanstalk.com/status/states").
         then(res=>{
                 console.log(res.data.states)
                 this.setState({states: res.data.states}, () => {

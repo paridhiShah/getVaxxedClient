@@ -45,7 +45,7 @@ export default class Certificate extends React.Component {
         //phone handle
         if(this.state.otp.length==0 && typeof(this.state.refId)=='undefined' ){
             console.log("in phone handle")
-            axios.post("https://intense-inlet-79769.herokuapp.com/status/certificate",{mobileNo:this.state.pno}).
+            axios.post("http://getv-env.eba-32nnpmku.ap-south-1.elasticbeanstalk.com/status/certificate",{mobileNo:this.state.pno}).
         then(res=>{
                 console.log(res.data)
                 
@@ -58,7 +58,7 @@ export default class Certificate extends React.Component {
             //otphandle
         if(this.state.otp.length==6 && typeof(this.state.refId)=='undefined')
         {
-        axios.post("https://intense-inlet-79769.herokuapp.com/status/certificate",{otp:this.state.otp}).
+        axios.post("http://getv-env.eba-32nnpmku.ap-south-1.elasticbeanstalk.com/status/certificate",{otp:this.state.otp}).
         then(pdfdata=>{
                 console.log(pdfdata.data)
                 var len = pdfdata.data.length;
@@ -129,7 +129,7 @@ export default class Certificate extends React.Component {
             
             var file_name= this.state.refId
             console.log("in ref handle",this.state.refId)
-            axios.post("https://intense-inlet-79769.herokuapp.com/status/certificate",{id: this.state.refId}
+            axios.post("http://getv-env.eba-32nnpmku.ap-south-1.elasticbeanstalk.com/status/certificate",{id: this.state.refId}
              ,{header: this.headers, responseTyoe : 'blob'})
              .then(response => {
                 const content = response.headers['content-type'];

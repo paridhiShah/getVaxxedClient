@@ -10,7 +10,7 @@ import '../css/CheckA.css';
 
 function CheckA({match}){
     console.log(match.params.id);
-    const url="https://intense-inlet-79769.herokuapp.com/status/try"
+    const url="http://getv-env.eba-32nnpmku.ap-south-1.elasticbeanstalk.com/status/try"
     const [error,setError] = useState(null);
     const [isLoaded,setIsLoaded]= useState(false);
     const [items,setItems] = useState([]);
