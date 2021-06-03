@@ -87,7 +87,7 @@ function CheckA({match}){
     }
     else{
         if(items!=null){
-         //console.log(items[1].sessions.date) 
+         console.log(items) 
             const centers = items.map(item =>{
                 return(
 
