@@ -44,7 +44,7 @@ class Main extends Component{
 
 
     componentDidMount(){
-        axios.get("https://getvaxxedd.herokuapp.com/status/states").
+        axios.get("https://intense-inlet-79769.herokuapp.com/status/states").
         then(res=>{
                 console.log(res.data.states)
                 this.setState({states: res.data.states}, () => {
@@ -102,7 +102,7 @@ class Main extends Component{
     onStateSelect =()=>{
         var state = this.state.value
         console.log("onselected stae:",state)
-        axios.post("/status/districtNames", {stateName:state}).
+        axios.post("https://intense-inlet-79769.herokuapp.com/status/districtNames", {stateName:state}).
         then(res=>{
                 console.log(res.data.districts)
                 this.setState({district : res.data.districts}, () => {
